@@ -1,0 +1,230 @@
+/* universal selector starts with * */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: aliceblue; 
+    padding: 10px 0px;
+}
+
+/* class selector starts with .  */
+.navbar {
+    /* to make block element inline element we use flex display */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.main-banner {
+    background-image: url(https://img.freepik.com/free-photo/ai-technology-brain-background-digital-transformation-concept_53876-124672.jpg?w=740&t=st=1688569449~exp=1688570049~hmac=b71bb6ebd2dad5fee4e7d747807f02a2994ec1db292536340944dd2f59cdeb78);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+
+}
+
+.main-banner-heading {
+    font-size: 50px;
+    width: 40%;
+    padding-top: 180px;
+    color: beige;
+}
+
+.watchIcon {
+    background-color: beige;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.watchVideo {
+    font-weight: 500;
+    color: beige;
+}
+
+.playButton {
+    padding: 15px;
+}
+
+.gridcol {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+}
+.reading{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.star{
+    color:rgb(223, 223, 38);
+    margin: 10px 0px;
+    padding: 10px 0px;
+
+}
+ 
+.booking {
+    background-color: rgb(46, 144, 235);
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: 700;
+
+}
+#amount{
+    background-color: white;
+    padding: 10px;
+}
+.image img {
+    width: 100%;
+    padding: 100px;
+    border-radius: 10px;
+
+}
+
+.content {
+    padding: 100px;
+}
+
+.heading {
+    width: 20%;
+    margin: 20px 100px;
+    color: rgb(0, 0, 0);   
+}
+
+#h5{
+    color: rgb(19, 143, 180);
+    margin-bottom: 5%;
+}
+
+.secondGrid{
+    display: grid;
+    grid-template-columns:repeat(3 , 1fr) ;
+    -ms-grid-column-align: center;
+}
+.images img {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.inline{
+
+    display: flex;
+}
+#h6{
+    margin-left: 10%;
+    
+}
+
+#head4{
+    color: rgb(19, 143, 180);
+    margin-left: 5%;
+
+
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns:repeat(4 , 1fr) ;
+    -ms-grid-column-align: center;
+    margin-top: 10px;
+}
+ .box{
+        width: 600px;
+        height: 200px;
+        border: 2px solid rgb(12, 22, 160);
+        background-color: rgb(12, 22, 160);
+        margin-right: 350px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        border-radius: 10px;
+      
+ }
+
+.news{
+    
+
+text-align: center;
+margin-top: 40px;
+font-size: 20px;
+color:beige;
+}
+.news h5{
+    padding: 10px 10px ;
+    
+
+
+}
+.email {
+    color: #3d3b3b;
+    background-color: white;
+ margin-right: 150px;
+ margin-left: 150px;
+ margin-top: 20px;
+ padding: 10px;
+ 
+}
+.submit{
+margin: 0px 20px;
+
+}
+button{
+    background-color: rgb(12, 22, 160);
+    padding: 0px 10px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.footer{
+    margin-top: 100px;
+    background-color:aliceblue;
+    padding: 50px 0px;
+}
+.fLogo {
+    margin-top: 60px;
+}
+.headline
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.icon {
+font-size: 20px;
+}
+.facebook{
+    color: #370cf7;
+}
+.mainMenu ul {
+    display: flex;
+color:blac;
+
+}
+.list{
+     margin-top: 20px;
+     list-style: none;
+}
+.listgap{
+    margin-top: 10px;
+}
+
+.mainMenu ul li {
+    list-style: none;
+    /* y =0, x=5 */
+    margin: 0px 5px;
+
+}
